@@ -1,0 +1,20 @@
+export const POKEMON_TYPE_COLORS: Record<string, { name: string; color: string }> = {
+  Normal: { name: '一般', color: '#949495' },
+  Fire: { name: '火', color: '#e56c3e' },
+  Water: { name: '水', color: '#5185c5' },
+  Electric: { name: '電', color: '#f6d851' },
+  Grass: { name: '草', color: '#66a945' },
+  Ice: { name: '冰', color: '#6dc8eb' },
+  Fighting: { name: '格鬥', color: '#e09c40' },
+  Poison: { name: '毒', color: '#735198' },
+  Ground: { name: '地面', color: '#cca142' }, // 依用戶要求使用 #cca142
+  Flying: { name: '飛行', color: '#a2c3e7' },
+  Psychic: { name: '超能力', color: '#dd6b7b' },
+  Bug: { name: '蟲', color: '#9fa244' },
+  Rock: { name: '岩石', color: '#bfb889' },
+  Ghost: { name: '幽靈', color: '#684870' },
+  Dragon: { name: '龍', color: '#535ca8' },
+  Steel: { name: '鋼', color: '#69a9c3' },
+  Fairy: { name: '妖精', color: '#dab4d4' },
+  Dark: { name: '惡', color: '#4c4948' },
+};

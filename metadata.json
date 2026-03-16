@@ -1,0 +1,5 @@
+{
+  "name": "Pokémon GO Raid Counter",
+  "description": "A specialized raid tracker for Pokémon GO players to count Shiny, Hundo, and Background card encounters with Max CP references.",
+  "requestFramePermissions": []
+}
