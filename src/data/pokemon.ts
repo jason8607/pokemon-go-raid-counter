@@ -50,7 +50,7 @@ export const RAID_BOSSES: PokemonRaidData[] = [
     types: ['Water'],
     maxCP20: 2351,
     maxCP25: 2939,
-    imageUrl: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png',
+    imageUrl: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10077.png',
     category: 'primal'
   },
   {
@@ -60,7 +60,7 @@ export const RAID_BOSSES: PokemonRaidData[] = [
     types: ['Ground', 'Fire'],
     maxCP20: 2351,
     maxCP25: 2939,
-    imageUrl: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png',
+    imageUrl: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10078.png',
     category: 'primal'
   },
 

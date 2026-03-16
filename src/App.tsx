@@ -113,11 +113,17 @@ const PokemonCard = ({
         onClick={() => setIsExpanded(!isExpanded)}
       >
         <div className="flex items-center gap-4">
-          <div className="relative w-16 h-16 bg-[#2C2C2E] rounded-full flex items-center justify-center p-2">
+          <div className={`relative w-16 h-16 rounded-full flex items-center justify-center p-2 ${
+            pokemon.category === 'shadow' 
+              ? 'bg-purple-950/80 shadow-[0_0_12px_4px_rgba(168,85,247,0.4)]' 
+              : 'bg-[#2C2C2E]'
+          }`}>
             <img 
               src={pokemon.imageUrl} 
               alt={pokemon.name} 
-              className="w-full h-full object-contain"
+              className={`w-full h-full object-contain ${
+                pokemon.category === 'shadow' ? 'drop-shadow-[0_0_6px_rgba(168,85,247,0.8)]' : ''
+              }`}
               referrerPolicy="no-referrer"
             />
           </div>
